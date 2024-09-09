@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Names with YouTube Background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="video-background">
+        <div id="youtube-video"></div>
+    </div>
+    <div id="wheel-container">
+        <canvas id="wheel" width="500" height="500"></canvas>
+        <div id="controls">
+            <input type="text" id="name-input" placeholder="Enter names separated by commas">
+            <button id="update-button">Update Names</button>
+            <button id="spin-button">Spin the Wheel</button>
+        </div>
+        <div id="pointer"></div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
